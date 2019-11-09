@@ -1,0 +1,40 @@
+html, body {
+    background-color: rgb(255, 253, 132);
+    height: 100%;
+}
+
+#kader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-width: 20px;
+    border-style: solid;
+    border-color: rgba(245, 241, 42, 0.993);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: white;
+}
+
+@media (max-width: 800px) {
+    #kader {
+        top: 0%;
+        left: 0%;
+        margin-right: 0%;
+        transform: translate(0%, 0%);
+        border-left: 0;
+        border-right: 0;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-top: 2rem;
+    }
+
+    #canvas {
+        width: 100%;
+    }
+}
